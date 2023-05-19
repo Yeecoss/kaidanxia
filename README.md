@@ -36,9 +36,10 @@ width="250" title="店铺3">
 <img src="https://gitee.com/yi-lian-shu-ju/kaidanxia/raw/master/%E5%BC%80%E5%8D%95%E8%99%BE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E6%88%AA%E5%9B%BE/%E6%88%91%E7%9A%84%E6%B8%A0%E9%81%93-11/%E5%BA%97%E9%93%BA%E6%8E%A8%E5%B9%BF.png" width="250" title="店铺推广">
 </figure>
 
-
+<center>
 <img src="https://gitee.com/yi-lian-shu-ju/kaidanxia/raw/master/%E5%BC%80%E5%8D%95%E8%99%BE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E6%88%AA%E5%9B%BE/%E5%BA%97%E9%93%BA-%E5%B1%95%E5%BC%80%E5%85%A8%E9%83%A8%E5%8A%9F%E8%83%BD.png"
 width="250" title="店铺-展开全部功能">
+</center>
 
 项目部署帮助及商业使用咨询
 ![图片](./开单虾功能模块截图/微信图片_20230519144019.png)

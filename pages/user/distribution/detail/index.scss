@@ -1,0 +1,234 @@
+.apply{
+    background: #F5F5F5;
+    height: 100%;
+    .heardBox{
+        height: 202rpx;
+        background: #FFFFFF;
+        // margin-top: 20rpx;
+        padding: 30rpx;
+        .infoBox{
+            .imgBox{
+                width: 88rpx;
+                height: 88rpx;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-right: 20rpx;
+                image{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info{
+                .userName{
+                    font-size: 28rpx;
+                    color: #333333;
+                }
+                .state{
+                    font-size: 24rpx;
+                    color: #F7B500;
+                    margin-top: 10rpx;
+                }
+            }
+            .optBox{
+                font-size: 24rpx;
+                .but{
+                    width: 112rpx;
+                    height: 44rpx;
+                    line-height: 44rpx;
+                    text-align: center;
+                    border-radius: 24rpx;
+                }
+                .use{
+                    border: 1px solid #F7B500;
+                    color: #F7B500;
+                }
+                .noUse{
+                    border: 1px solid #DEDEDE;
+                    color: #333333;
+                    margin-left: 20rpx;
+                }
+                .noMoney{
+                    border: 1px solid #E82E2E;
+                    color: #E82E2E;
+                    margin-left: 20rpx;
+                }
+            }
+        }
+        .numBox{
+            margin-top: 30rpx;
+            text-align: center;
+            .numItem{
+                .num{
+                    font-size: 30rpx;
+                    color: #333333;
+                }
+                .numTip{
+                    margin-top: 10rpx;
+                    font-size: 24rpx;
+                    color:#6D7278;
+                }
+            }
+        }
+    }
+    .discount{
+        margin-top: 20rpx;
+        height: 88rpx;
+        background: white;
+        font-size: 28rpx;
+        padding: 0 30rpx;
+        .title{
+            color: #666;
+        }
+        .discountNum1{
+            color: #333333;
+        }
+        .discountNum2{
+            color: #E82E2E;
+        }
+        .discountNum3{
+            color: #0091FF;
+        }
+        .iconfont2{
+            font-size: 26rpx;
+            color: #333;
+            margin-left: 20rpx;
+        }
+    }
+    .container{
+        background: white;
+        margin-top: 20rpx;
+        .tabsBox{
+            height: 60rpx;
+            line-height: 60rpx;
+            padding-left: 30rpx;
+            margin-top: 16rpx;
+            margin-bottom: 10rpx;
+            .tabItem{
+                margin-right: 40rpx;
+                font-size: 28rpx;
+                color: #666;
+                position: relative;
+            }
+            .active{
+                font-size: 32rpx;
+                color: #333;
+                .line{
+                    width: 40rpx;
+                    height: 4rpx;
+                    background: #E82E2E;
+                    border-radius: 4rpx;
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -20rpx;
+                    bottom: 0;
+                }
+            }
+        }
+        .orderListBox{
+            font-size: 24rpx;
+            text-align: center;
+            padding: 0 30rpx;
+            .orderTitle{
+                height: 80rpx;
+                line-height: 80rpx;
+                color: #999999;
+                border-bottom: 1rpx solid #DEDEDE;
+            }
+            .orderList{
+                color: #333333;
+                height: 110rpx;
+                border-bottom: 1rpx solid #DEDEDE;
+                .listMore{
+                    margin-right: 20rpx;
+                    .iconfont2{
+                        color: #333;
+                        font-size: 26rpx;
+                    }
+                    .delBox{
+                       margin-right: 48rpx; 
+                    }
+                    .listMoreBox{
+                        transform: rotateZ(90deg);
+                    }
+                }
+            }
+            .orderNum{
+                width: 104rpx;
+                text-align: left;
+            }
+            .orderListNum{
+                width: 88rpx;
+                padding-left: 16rpx;
+            }
+            .orderTime{
+                width: 238rpx;
+                margin-right: 60rpx;
+                .order_no{
+                    text-align: left;
+                }
+                .create_time{
+                    margin-top: 6rpx;
+                    color: #666666;
+                    text-align: left;
+                }
+            }
+            .orderPrice{
+                text-align: left;
+            }
+        }
+    }
+    /deep/ .writeOff_model .popup-main{
+        padding-top: 0;
+        overflow: hidden;
+    }
+    /deep/ .writeOff_model .popup-main .pop-close{
+        color: #fff;
+        .iconfont2{font-size: 36rpx;}
+    }
+    .popTips-title{
+        letter-spacing: 4rpx;
+        line-height: 88rpx;
+        background:linear-gradient(270deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+    }
+    .popTips-title2{
+        background: #FDEFEF;
+        color: $red;
+    }
+    .mcontent{
+        padding:	40rpx 40rpx 36rpx;
+        max-height: 300px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .writeOff_value{
+        height: 80rpx;
+        line-height: 80rpx;
+        padding: 0 20rpx;
+        border-radius: 4rpx;
+        border:1rpx solid #DEDEDE;
+        input{height: 100%;}
+    }
+    .way-item{
+        padding: 0 12rpx;
+        height: 68rpx;
+        line-height: 68rpx;
+        text-align: center;
+        border-radius: 6rpx;
+        border:1rpx solid #eee;
+        overflow: hidden;
+        &.on{
+            border-color: $red;
+        }
+    }
+    .tui-node-dot {
+        height: 16rpx;
+        width: 16rpx;
+        background-color: #C7C7C7;
+        border-radius: 50%;
+        margin-top: 6rpx;
+    }
+    .tui-timeaxis-item:first-child .tui-node-dot{
+        background: $red;
+        box-shadow: 0 0 8rpx $red;
+    }
+}

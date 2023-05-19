@@ -1,0 +1,67 @@
+.bgf5{
+	min-height: 100%;
+}
+.bgf{background-color: #fff;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tabItem{
+	flex: 1;
+	text-align: center;
+	text{
+		height: 80rpx;
+		line-height: 80rpx;
+		justify-content: center;
+		display: inline-flex;
+		padding: 0 10rpx;
+		box-sizing: border-box;
+		border-bottom: 4rpx solid transparent;
+		overflow: hidden;
+	}
+	&.on text{
+		color: $red;
+		border-color: $red;
+	}
+}
+// tip
+.tip{
+	text-align: center;
+	line-height: 64rpx;
+	color: #F8B14A;
+	background-color: #FEF7EC;
+}
+.list-wrap{
+	margin-top: 20rpx;
+	padding-top: 28rpx;
+	padding-bottom: 28rpx;
+}
+.list-pic{
+	width:	144rpx;
+	height:	144rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.list-info{
+	margin-left: 20rpx;
+	overflow: hidden;
+}
+.name{
+	height: 68rpx;
+}
+.middle{
+	height: 32rpx;
+	text{
+		margin-right: 10rpx;
+	}
+}
+.btn{
+	width: 88rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+	color: $red;
+	border-radius: 26rpx;
+	border:1rpx solid $red;
+}

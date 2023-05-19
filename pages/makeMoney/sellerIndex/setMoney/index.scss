@@ -1,0 +1,78 @@
+view{box-sizing: border-box;}
+.contentBox{
+	padding: 42rpx 30rpx 54rpx;
+	background: white;
+	.list{
+		.titleIcon{
+			width: 32rpx;
+			height: 32rpx;
+			line-height: 32rpx;
+			text-align: center;
+			color: white;
+			border-radius: 50%;
+			font-size: 24rpx;
+			margin-right: 8rpx;
+			background: linear-gradient(270deg, #F27257 0%, #FB937D 100%);
+		}
+		.title{
+			color: #333;
+			font-size: 32rpx;
+			line-height: 32rpx;
+		}
+		.inputBox{
+			line-height: 48rpx;
+			margin-top: 30rpx;
+			color: #666666;
+			font-size: 28rpx;
+			margin-bottom: 60rpx;
+			input{
+				width: 128rpx;
+				height: 48rpx;
+				border: 1px solid #DEDEDE;
+				margin: 0 10rpx;
+				border-radius: 4rpx;
+				text-align: center;
+			}
+		}
+	}
+	.tipBox{
+		background: #F8F8F8;
+		padding: 30rpx 20rpx 40rpx;
+		font-size: 26rpx;
+		line-height: 40rpx;
+		color: #666;
+		.tipTitle{
+			font-size: 28rpx;
+			color: #333;
+			margin-bottom: 8rpx;
+		}
+		.tipContent{
+			.tipList{
+				position: relative;
+				padding-left: 20rpx;
+				.dot{
+					width: 6rpx;
+					height: 6rpx;
+					border-radius: 50%;
+					background: #999999;
+					position: absolute;
+					left: 0;
+					top: 16rpx;
+				}
+			}
+		}
+	}
+}
+.submitBut{
+	margin: 60rpx auto 0;
+	text-align: center;
+	color: white;
+	font-size: 32rpx;
+	color: white;
+	width: 690rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #E82E2E;
+	box-shadow: 0px 0px 16rpx 1rpx rgba(222, 222, 222, 0.5);
+	border-radius: 40rpx;
+}

@@ -1,0 +1,194 @@
+view,.box-sizing{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.f-60{font-size: 60rpx;}
+// top-wrap
+.top-wrap, .top-con{
+	height: 178rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.top-wrap0,.top-wrap0 .top-con{
+	height: 88rpx;
+}
+.top-con{
+	position: fixed;
+	z-index: 1;
+}
+.search{
+	height: 88rpx;
+	padding-top: 14rpx;
+	border-top: 1rpx solid #F5F5F5;
+}
+// tab
+.tab{
+	height: 88rpx;
+	width: 100%;
+}
+.tab-item{
+	width: 100%;
+	text-align: center;
+	.text{
+		display: inline-flex;
+		height: 88rpx;
+		line-height: 88rpx;
+		box-sizing: border-box;
+	}
+	&.on{
+		color: $red;
+		.text{
+			border-bottom: 4rpx solid $red;
+		}
+	}
+}
+// footer
+.footer,.foot{
+	height: 98rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	border-top: 1rpx solid #DEDEDE;
+}
+.foot-btn{
+	line-height:72rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 折扣
+.discount,.batch-btn-wrap{
+	height: 96rpx;
+}
+.discount{
+	input{width: 140rpx;}
+}
+// 渠道价
+.main{
+	padding: 0 30rpx 40rpx;
+}
+.batch-btn-wrap{
+	padding: 0 20rpx;
+}
+.batch-btn{
+	height: 48rpx;
+	line-height: 46rpx;
+	padding: 0 24rpx;
+	color: $red;
+	border: 1rpx solid $red;
+	border-radius: 26rpx;
+}
+// list
+.list{
+	padding: 20rpx 20rpx 0;
+	overflow: hidden;
+}
+.pro-pic{
+	width: 80rpx;
+	height: 80rpx;
+	background: #D8D8D8;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.pro-name{
+	max-width: 320rpx;
+}
+.list-switch{
+	line-height: 64rpx;
+	color: #DEDEDE;
+	border-top: 1rpx solid #eee;
+}
+.list-batch-btn{
+	color: #F8B14A;
+	border-color: #F8B14A;
+}
+// css表格实现
+.su-table-box {
+	font-size: 24rpx;
+	.su-tr{
+		padding: 16rpx 0;
+		min-height: 80rpx;
+		line-height: 1.2;
+		border-top: 1rpx solid #eee;
+		overflow: hidden;
+		&:first-child{
+			border-top: 0;
+		}
+	}
+	.su-td {
+		color: #666;
+		overflow: hidden;
+	}
+	.table-input{
+		margin-left: 10rpx;
+		width: 88rpx;
+		height: 48rpx;
+		line-height: 48rpx;
+		text-align: center;
+		border-radius: 4rpx;
+		border: 1rpx solid #DEDEDE;
+		overflow: hidden;
+	}
+}
+.su-wid0{
+	width: 186rpx;
+	padding-left: 10rpx;
+}
+.su-wid1{
+	width: 160rpx;
+	word-break: break-all;
+}
+// 弹窗
+.mcontent{
+	padding:	40rpx 44rpx 60rpx;
+}
+.sheTab{
+	view{
+		margin: 0 35rpx;
+		height: 42rpx;
+		line-height: 42rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 4rpx solid transparent;
+		box-sizing: initial;
+		&.on{
+			color: $red;
+			border-color: $red;
+		}
+	}
+}
+.szMoney input{
+	height: 80rpx;
+	padding: 0 20rpx;
+}
+// 批量-渠道价/渠道优惠弹窗
+// /deep/ .popup-main .pop-btn{
+// 	display: none;
+// }
+// .popup-main .pop-btn-block{
+// 	display: flex;
+// 	border-top: 1rpx solid #eee;
+// 	view{
+// 			width: 100%;
+// 			font-size: 28rpx;
+// 			line-height: 86rpx;
+// 			color: #666;
+// 			text-align: center;
+// 			letter-spacing: 0.05em;
+// 			overflow: hidden;
+// 	}
+// 	.cancel,.submit{
+// 		color: $red;
+// 		border-left: 1rpx solid #eee;
+// 	}
+// }

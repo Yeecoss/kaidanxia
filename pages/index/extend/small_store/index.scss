@@ -1,0 +1,219 @@
+view, scroll-view{
+	box-sizing: border-box;
+}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.page-bg{
+	width: 100%;
+	height: 360rpx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 308rpx / 30rpx;
+	background: linear-gradient(to right, #F27257 0%, #FF9781 100%);
+}
+.m-top6{margin-top: 6rpx;}
+// 标题栏
+.left-title{
+	font-size: 32rpx;
+	color: #222;
+	white-space: nowrap;
+	.shopIcon{
+		display: inline-block;
+		margin-right: 16rpx;
+		font-size: 36rpx;
+		animation: 3s rainbow ease infinite normal;
+		color: $red;
+	}
+	.text{
+		height: 36rpx;
+		line-height: 32rpx;
+		max-width: 300rpx;
+	}
+	.tui-chat-text{
+		height: 120rpx;
+		padding: 32rpx 30rpx;
+		width: 280rpx;
+		color: #333333;
+		font-size: 28rpx;
+		white-space:normal;
+		display: inline-block;
+		.okBut{
+			margin-top: 20rpx;
+			text-align: right;
+		}
+	}
+}
+// 头部
+.header{
+	height: 88rpx;
+}
+.index-header{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 88rpx;
+	z-index: 9;
+	background: linear-gradient(to right, #F27257 0%, #FF9781 100%);
+	/* #ifdef MP */
+	// top: 128rpx;
+	/* #endif */
+}
+.index-header-c{
+	flex: 1;
+	overflow: hidden;
+}
+.index-header-c view{
+	position: relative;
+	margin-right: 28rpx;
+	font-size: 28rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	color: #fff;
+	box-sizing: border-box;
+	&::after{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		content: '';
+		width: 48rpx;
+		height: 4rpx;
+		background-color: transparent;
+	}
+	&.on{
+		color: #fff;
+		font-size: 36rpx;
+	}
+	&.on::after{
+		background-color: #fff;
+	}
+}
+.index-header-l,.index-header-r{
+	line-height: 88rpx;
+	color: #fff;
+	overflow: hidden;
+}
+// 联系商家
+.lianxiShop{
+	position: fixed;
+	right: 30rpx;
+	bottom: 20%;
+	width: 96rpx;
+	height: 96rpx;
+	line-height: 96rpx;
+	background: #66C25C;
+	border-radius: 50%;
+	z-index: 1;
+	text{
+		color: #fff;
+		font-size: 48rpx;
+	}
+}
+// .diy-banner
+.main{
+	position: relative;
+	z-index: 0;
+}
+.mbg{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 2320rpx;
+	z-index: -1;
+	background: linear-gradient(180deg, rgba(243, 243, 243, 0) 0%,rgba(243, 243, 243, 1) 10%, #FFFFFF 100%);
+}
+// 推荐热销
+.m-t-50{
+	margin-top: 50rpx;
+}
+.rHotTbs{
+	view{
+		position: relative;
+		padding-bottom: 10rpx;
+		overflow: hidden;
+		transition: all 0.2s;
+		&::after{
+			position: absolute;
+			bottom: 0;
+			left: 16rpx;
+			right: 16rpx;
+			content: '';
+			display: block;
+			height:4rpx;
+			background: transparent;
+			transition: all 0.2s;
+		}
+		&.on{
+			color: #333;
+			font-size: 32rpx;
+			font-weight: bold;
+			// -webkit-text-stroke:1rpx #333;
+			&::after{
+				background: $red2;
+			}
+		}
+	}
+}
+.mgoods_list{
+	height: 416rpx;
+	white-space: nowrap;
+}
+.mini_goods{
+	display: inline-block;
+	width: 480rpx;
+	height: 100%;
+	margin-right: 20rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+	&:last-child{margin-right: 30rpx;}
+	.mgoods_pic{
+		height: 300rpx;
+		background-color: #E6E6E6;
+		overflow: hidden;
+	}
+	.mgoods_detail{
+		padding: 20rpx;
+	}
+}
+// 砍价专区
+.bargin-item{
+	position: relative;
+	width: 334rpx;
+	height: 240rpx;
+	background: #D8D8D8;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.bargain-price{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 0 10rpx;
+	line-height: 36rpx;
+	background: $red2;
+	border-radius: 0 20rpx 0 8rpx;
+}
+// 商品展示
+.mini_good{
+	width: 220rpx;
+	margin-right: 14rpx;
+	margin-bottom: 30rpx;
+	&:nth-child(3n){margin-right: 0;}
+	.mgoods_pic{
+		height: 220rpx;
+		border-radius: 8rpx;
+		background-color: #E6E6E6;
+		overflow: hidden;
+	}
+	.mgoods_detail{
+		padding: 20rpx 0 0;
+	}
+}
+.more-img{
+	width: 250rpx;
+	margin: 0 auto;
+}

@@ -1,0 +1,148 @@
+.seconds-kill-li {
+  padding: 10rpx;
+  box-sizing: border-box;
+  width: 33.3%;
+  float: left;
+}
+
+.title-box {
+  font-size: 10pt;
+  padding: 50rpx 0 0 0;
+}
+
+.title-box .icon-lajixiang {
+  float: right;
+}
+
+.sale-button-box {
+  padding: 10px 0 0;
+  overflow: hidden;
+}
+
+.serch-button button {
+  background: #ff495e;
+}
+
+/* asd */
+
+.search-input-box {
+  height: 60rpx;
+}
+
+.search-input {
+  width: 100%;
+  background: #F2F2F2;
+  border-radius: 30rpx;
+  padding-left: 26rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.search-input input {
+	flex: 1;
+  font-size: 30rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+	margin-left: 24rpx;
+}
+
+.serch-button {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.serch-button button {
+  line-height: 64rpx;
+  height: 64rpx;
+  font-size: 28rpx;
+  border-radius: 0 5px 5px 0;
+}
+
+.seconds-kill-li {
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
+.sale-button, .recent-button {
+  background: #F6F6F6;
+  padding: 10rpx;
+  border-radius: 50px;
+  justify-content: center;
+  text-align: center;
+  font-size: 26rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+
+.search-cont {
+  padding: 0 15px;
+  background: #fff;
+}
+
+.search-box .left {
+  width: 30px;
+}
+
+.search-box .right {
+  flex: 1;
+}
+
+.sale-button-box .seconds-kill-li {
+  width: 33.3%;
+  float: left;
+}
+
+.title-box image {
+  width: 35rpx;
+  height: 35rpx;
+  float: right;
+}
+.hotBox{
+  margin-top: 30rpx;
+}
+.hot-title{
+  margin-bottom: 30rpx;
+}
+.hot-title image{
+  width: 24rpx;
+  height: 28rpx;
+  margin-right: 10rpx;
+}
+.hotList{
+  height: 128rpx;
+  line-height: 128rpx;
+  margin-bottom: 20rpx;
+}
+.imgBoxHot{
+  border: 2rpx solid #e82e2e;
+}
+.hotList .number{
+  width: 40rpx;
+  color: #A9A9A9;
+}
+.hotList .number image{
+  width: 18rpx;
+  height: 20rpx;
+}
+.hotList .imgBox{
+  width: 128rpx;
+  height: 128rpx;
+  overflow: hidden;
+  border-radius: 10rpx;
+}
+.hotList .imgBox image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.goods_info{
+	flex: 1;
+  padding-left: 20rpx;
+  line-height: 40rpx;
+}
+.goods_info .goods_name{
+  margin: 20rpx 0 10rpx;
+}

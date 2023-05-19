@@ -1,0 +1,82 @@
+view{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.m-t-6{margin-top: 6rpx;}
+// top-wrap
+.top-wrap, .top-con{
+	height: 178rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.top-con{
+	position: fixed;
+	z-index: 1;
+}
+.search{
+	height: 90rpx;
+	padding-top: 14rpx;
+	border-bottom: 1rpx solid #F5F5F5;
+}
+// tabs
+.top-tab{
+	height: 88rpx;
+}
+.top-tab-item{
+	width: 33.33%;
+	text-align: center;
+	line-height: 88rpx;
+	position: relative;
+	display: table-cell;
+	&.active{color: $red;}
+}
+.angle_top {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	border-style: solid;
+	border-width: 0 8rpx 12rpx;
+	border-color: transparent transparent #DEDEDE;
+	position: absolute;
+	top: 32rpx;
+	right: 34rpx;
+}
+.angle_bottom {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	border-style: solid;
+	border-width: 0 8rpx 12rpx;
+	border-color: transparent transparent #DEDEDE;
+	position: absolute;
+	transform: rotate(180deg);
+	bottom: 28rpx;
+	right: 34rpx;
+}
+.priceOn{
+	border-color: transparent transparent $red;
+}
+// list
+.list-item{
+	padding: 30rpx;
+}
+.list-item-pic{
+	width: 160rpx;
+	height: 160rpx;
+	background: #D8D8D8;
+}
+.list-btn{
+	min-width: 208rpx;
+	height: 48rpx;
+	padding: 0 20rpx;
+	margin: 0;
+	line-height: 48rpx;
+	color: #fff;
+	background: linear-gradient(90deg, #F55B5B 0%, #E82E2E 100%);
+	box-shadow: 0 4rpx 8rpx 0 rgba(232, 46, 46, 0.29);
+	border-radius: 24rpx;
+}

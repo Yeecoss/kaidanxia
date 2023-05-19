@@ -1,0 +1,57 @@
+.apply{
+    background: #F5F5F5;
+    height: 100%;
+    .userBox{
+        padding: 0 30rpx;
+        .filter{
+            -webkit-filter: blur(6rpx);
+            filter: blur(6rpx);
+        }
+        .userItem{
+            width:650rpx;
+            height:128rpx;
+            background:rgba(255,255,255,1);
+            border-radius:12rpx;
+            margin-top: 20rpx;
+            padding: 0 20rpx;
+            .imgBox{
+                width:88rpx;
+                height:88rpx;
+                border-radius: 44rpx;
+                overflow: hidden;
+                .img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info{
+                width: 516rpx;
+                .name{
+                    color: #333333;
+                    font-size: 28rpx;
+                    padding-left: 20rpx;
+                }
+                .time{
+                    padding-left: 20rpx;
+                    color: #666666;
+                    font-size: 24rpx;
+                    margin-top: 10rpx;
+                }
+            }
+            .num{
+                color: #E82E2E;
+                font-size: 28rpx;
+                text-align: center;
+                .unlock{
+                    width:128rpx;
+                    height:44rpx;
+                    line-height:44rpx;
+                    border-radius:22rpx;
+                    border:1rpx solid rgba(232,46,46,1);
+                    font-size: 24rpx;
+                    margin-top: 20rpx;
+                }
+            }
+        }
+    }
+}

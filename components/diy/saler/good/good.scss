@@ -1,0 +1,74 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.goods{
+	position: relative;
+	padding: 30rpx;
+}
+.seller{
+	width: 80rpx;
+	height:80rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.good_info{
+	overflow: hidden;
+}
+.tag-wrap{
+	position: absolute;
+	right: 30rpx;
+	top: 0;
+}
+.hot-tag{
+	width: 42rpx;
+	&:nth-child(2){
+		margin-left: 10rpx;
+	}
+}
+.price{margin-top: 6rpx;}
+.price1{color: #FA2B2D;}
+.price2{text-decoration: line-through;}
+.sell_point{
+	overflow: hidden;
+	line-height: 40rpx;
+}
+.copy{
+	color: #F8B14A;
+}
+.col-b{
+	color: #576a94;
+}
+/* <=2 */
+/deep/ .goods_pic1 .goods_pic_item,/deep/ .goods_pic2 .goods_pic_item{
+	width: 290rpx;
+	height: 290rpx;
+}
+/* 3 */
+/deep/ .goods_pic3 .goods_pic_item:nth-child(1){
+	width:388rpx;
+	height:394rpx;
+	margin-right: 10rpx;
+}
+/deep/ .goods_pic3 .goods_pic_item:nth-child(2),.goods_pic3 .goods_pic_item:nth-child(3){
+	width:192rpx;
+	height:192rpx;
+}
+/* >3 */
+/deep/ .goods_pic .goods_pic_item {
+	width: 190rpx;
+	height: 190rpx;
+}
+/* 大于六张的蒙版 */
+/deep/ .goods_pic_mark{
+	width: 190rpx;
+	height: 190rpx;
+}
+.optbox{
+	margin-top: 20rpx;
+	justify-content: space-between;
+}
+.oper-item text {
+  margin-right: 10rpx;
+}

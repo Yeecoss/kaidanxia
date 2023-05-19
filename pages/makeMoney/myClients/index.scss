@@ -1,0 +1,30 @@
+
+// top-wrap
+.top-wrap, .top-con{
+	height: 266rpx;
+}
+.search{
+	border-bottom: 0;
+}
+.top-clientTab{
+	border-bottom: 1rpx solid #F5F5F5;
+	height: 88rpx;
+}
+.clientTab-item{
+	position: relative;
+	width: 33.33%;
+	line-height: 88rpx;
+	text-align: center;
+	&.on::after{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		content: '';
+		display: block;
+		width: 112rpx;
+		height: 4rpx;
+		background: $red;
+		border-radius: 2px;
+	}
+}

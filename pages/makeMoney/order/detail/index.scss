@@ -1,0 +1,30 @@
+view{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.m-t-6{margin-top: 6rpx;}
+// list
+.list-item{
+	padding: 20rpx 80rpx 20rpx 60rpx;
+}
+.list-pic{
+	width: 128rpx;
+	height: 128rpx;
+	margin-left: 40rpx;
+	background: #D8D8D8;
+	overflow: hidden;
+}
+.list-item-info{
+	margin-left: 20rpx;
+}
+.list-item-bottom{
+	margin-top: 24rpx;
+	line-height: 20rpx;
+}
+.num{
+	padding: 0 20rpx;
+	border-left: 1rpx solid #DEDEDE;
+	// border-right: 1rpx solid #DEDEDE;
+}

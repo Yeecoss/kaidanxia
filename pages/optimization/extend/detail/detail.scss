@@ -1,0 +1,180 @@
+// 标题
+.nav .title{
+  margin-left: 10rpx;
+}
+.left-title{
+	width: 100%;
+	font-size: 32rpx;
+	color: #222;
+	white-space: nowrap;
+	text{
+		margin-right: 16rpx;
+		font-size: 36rpx;
+		color: #000;
+	}
+}
+// 用户
+.user-img{
+	width: 60rpx;
+	height: 60rpx;
+	margin-right: 10rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+// banner
+.banner{
+	position: relative;
+	height: 750rpx;
+	overflow: hidden;
+}
+.edit-btn{
+	position: absolute;
+	right: 0;
+	bottom: 40rpx;
+	padding: 0 20rpx;
+	line-height: 44rpx;
+	border-radius: 24rpx 0 0 24rpx;
+	background-color: rgba($color: #fff, $alpha: 0.7);
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 商品信息
+.good-data{
+	padding-bottom: 30rpx;
+	border-bottom: 1px solid #eee;
+}
+.goods-name{
+	margin-top: 20rpx;
+}
+.goods-data {
+	margin-top: 20rpx;
+}
+.read-num text{
+	margin-right: 10rpx;
+}
+// 标签
+.tag-wrap view{
+	padding: 0 20rpx;
+	line-height: 40rpx;
+	margin-top: 16rpx;
+	border-radius: 20rpx;
+	color: rgba(68, 215, 182, 1);
+	background-color: rgba(68, 215, 182, 0.08);
+}
+.detail{
+	margin-top: 40rpx;
+}
+// 商品列表
+.goods-list{
+	padding-bottom: 40rpx;
+	border-top: 20rpx solid #F7F7F7;
+}
+.goods-list-title{
+	line-height: 70rpx;
+}
+.goods-list-item{
+	padding-right: 20rpx;
+	margin-bottom: 20rpx;
+	border-radius:8rpx;
+	background:#F7F7F7;
+	overflow: hidden;
+}
+.goods-list-pic{
+	width: 144rpx;
+	height: 112rpx;
+	overflow: hidden;
+}
+.good-list-data{
+	flex: 1;
+	margin: 0 10rpx;
+	overflow: hidden;
+}
+.good-list-price{
+	color: $red;
+	margin-top: 20rpx;
+}
+// 底部操作栏
+.operation-wrap,.operation{
+	height: 88rpx;
+	width: 100%;
+}
+.operation{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	box-shadow:	0 0 8rpx 2rpx rgba(222,222,222,0.5);
+}
+.oper-item{
+	flex: 1;
+	text-align: center;
+	overflow: hidden;
+	&.on text{
+		color: $red;
+	}
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 分享弹窗
+.popup__trade {
+  width: 750rpx;
+  position: relative;
+  z-index: 999;
+}
+.popup__trade .trade-title{
+	height: 110rpx;
+}
+.popup__trade .trade-close {
+  height: 88rpx;
+	margin: 0 30rpx;
+	border-top: 1rpx solid #eee;
+}
+
+.popup__trade .trade-main {
+  border-radius:16rpx 16rpx 0 0;
+  background: #fff;
+  box-sizing: border-box;
+}
+.share_list{
+	flex-wrap: wrap;
+	padding-bottom: 20rpx;
+}
+.share_list_i{
+	width: 20%;
+	margin-bottom: 14rpx;
+	text-align: center;
+	overflow: hidden;
+}
+.share_list_icon{
+	width: 72rpx;
+	height: 72rpx;
+	line-height: 72rpx;
+	margin: 0 auto 14rpx;
+	border-radius: 50%;
+	&.bgshop{
+		background:linear-gradient(180deg,rgba(245,91,91,1) 0%,rgba(232,46,46,1) 100%);
+	}
+	&.bgweixin{
+		background:linear-gradient(180deg,rgba(121,219,128,1) 0%,rgba(68,181,73,1) 100%);
+	}
+	&.bgfriends{
+		background:linear-gradient(180deg,rgba(199,239,95,1) 0%,rgba(150,218,49,1) 100%);
+	}
+	&.bgqq{
+		background:linear-gradient(180deg,rgba(146,219,248,1) 0%,rgba(89,181,239,1) 100%);
+	}
+	&.bgqqzone{
+		background:linear-gradient(180deg,rgba(253,220,54,1) 0%,rgba(250,182,25,1) 100%);
+	}
+	text{
+		font-size: 40rpx;
+		color: #fff;
+	}
+}

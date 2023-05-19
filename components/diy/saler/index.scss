@@ -1,0 +1,154 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+// 标题
+.saler_title{
+	margin-top: 60rpx;
+	image{
+		width: 264rpx;
+		margin: 0 auto;
+	}
+}
+// 导航组
+.saler-navBar-item{
+	line-height: 88rpx;
+	position: relative;
+}
+.saler-navBar-item:nth-child(2){
+	text{font-size: 30rpx;}
+}
+.saler-navBar-item:nth-child(3){
+	text{font-size: 30rpx;font-weight: bold;}
+}
+// 状态图片
+.item-status{
+	position: absolute;
+	bottom: 50rpx;
+	right: 0;
+	transform: translate(100%,0);
+	animation: 3s rainbow ease infinite normal;
+	image{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+.saler-navBar-item:nth-child(1) .item-status{
+	width: 44rpx;
+	height: 20rpx;
+}
+.saler-navBar-item:nth-child(2) .item-status{
+	width: 24rpx;
+	height: 26rpx;
+}
+.saler-navBar-item:nth-child(3) .item-status{
+	width: 44rpx;
+	height: 20rpx;
+}
+@keyframes rainbow {
+	0% {
+		transform:rotate(0deg) translate(100%,-50%);
+	}
+	1% {
+		transform:rotate(5deg) translate(100%,-50%);
+	}
+	2%{
+		transform:rotate(5deg) translate(100%,-50%);
+	}
+	3%{
+		transform:rotate(5deg) translate(100%,-50%);
+	}
+	4%{
+		transform:rotate(0deg) translate(100%,-50%);
+	}
+	5% {
+		transform:rotate(-5deg) translate(100%,-50%);
+	}
+	6%{
+		transform:rotate(-5deg) translate(100%,-50%);
+	}
+	7%{
+		transform:rotate(-5deg) translate(100%,-50%);
+	}
+	8%{
+		transform:rotate(0deg) translate(100%,-50%);
+	}
+}
+// 联系商家
+.lianxiShop{
+	color: #2BBD20;
+	padding-bottom: 40rpx;
+	padding-top: 20rpx;
+	border-bottom: 1rpx solid #F8F8F8;
+	text{color: #35D900;}
+}
+// 头部
+.header{
+	height: 88rpx;
+}
+.index-header{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 88rpx;
+	z-index: 9;
+	background-color: #fff;
+	/* #ifdef MP */
+	// top: 128rpx;
+	/* #endif */
+}
+.index-header text{
+	font-size: 36rpx;
+}
+.index-header-c{
+	flex: 1;
+	// overflow: hidden;
+}
+.index-header-c view{
+	position: relative;
+	margin: 0 28rpx;
+	font-size: 36rpx;
+	height: 52rpx;
+	line-height: 52rpx;
+	background: #fff;
+	box-sizing: border-box;
+	&::after {
+		position: absolute;
+		bottom: -12rpx;
+		left: 50%;
+		transform: translateX(-50%);
+		content: '';
+		width: 36rpx;
+		height: 36rpx;
+		border-radius: 50%;
+		border: 4rpx solid #fff;
+		background-color: #fff;
+		z-index: -1;
+		box-sizing: border-box;
+	}
+	&.on{
+		color: $red;
+	}
+	&.on::after{
+		border-color: $red;
+	}
+}
+.index-header-l,.index-header-r{
+	width: 130rpx;
+	line-height: 88rpx;
+	overflow: hidden;
+	.cate_btn,.search_btn{
+		line-height: 40rpx;
+		.iconfont2{
+			font-size: 36rpx;
+		}
+		.text{
+			color: #333;
+			font-size: 28rpx;
+			line-height: 28rpx;
+			margin-left: 10rpx;
+		}
+	}
+}

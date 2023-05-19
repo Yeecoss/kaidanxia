@@ -1,0 +1,124 @@
+.bgf5{
+	min-height: 100%;
+}
+.bgf{background-color: #fff;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.tab-wrap{
+	height: 80rpx;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+view{
+	box-sizing: border-box;
+}
+/* footer */
+.footer,.foot{
+	height: 120rpx;
+	width: 100%;
+}
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.foot-btn{
+	line-height:80rpx;
+	text-align: center;
+	background: $red;
+	box-shadow:0 0 16rpx 2rpx rgba(222,222,222,0.5);
+	border-radius: 40rpx;
+	overflow: hidden;
+	text{
+		margin-right: 10rpx;
+	}
+}
+// 列表
+.main{
+	padding: 0 30rpx 40rpx;
+}
+.list-item{
+	padding: 30rpx 20rpx;
+	margin-top: 24rpx;
+	border-radius: 8rpx;
+}
+.list-top{
+	margin-bottom: 22rpx;
+}
+.title-wrap{
+	flex: 1;
+	font-weight:500;
+	overflow: hidden;
+}
+// 用户头像
+.user-avatar{
+	width: 56rpx;
+	height:56rpx;
+	display: inline-flex;
+	border-radius: 50%;
+	margin-right: 16rpx;
+	overflow: hidden;
+}
+.more{
+	color: $red;
+}
+.list-item0{
+	border-left: 8rpx solid rgba(248,177,74,0.5);
+	.clock-text{
+		color: #F8B14A;
+	}
+}
+.list-item1{
+	border-left: 8rpx solid #DEDEDE;
+	.clock-text{
+		color: #999;
+	}
+	.done-btn{
+		border-color: $red;
+		text{
+			display: block;
+			color: $red;
+			font-weight: bold;
+		}
+	}
+}
+.list-item2{
+	border-left: 8rpx solid rgba(232,46,46,0.5);
+	.clock-text{
+		color: $red;
+	}
+}
+.done-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30rpx;
+	height: 30rpx;
+	margin-left: 30rpx;
+	border-radius: 4rpx;
+	border: 2rpx solid #999;
+	overflow: hidden;
+	text{display: none;}
+}
+.middle{
+	padding: 20rpx;
+	background-color: #F7F7F7;
+	border-radius: 6rpx;
+	overflow: hidden;
+}
+.list-bottom{
+	margin-top: 20rpx;
+}
+.operation view{
+	margin-left: 40rpx;
+	text{margin-left: 10rpx;}
+}
+/deep/ .tui-countdown-item{
+	border-color: transparent !important;
+	box-shadow:0 0 2rpx 0 #D0D0D0;
+}

@@ -1,0 +1,42 @@
+image{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.user_img{
+	position: relative;
+	width:64rpx;
+	height:64rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user_sex{
+	position: absolute;
+	right: 8rpx;
+	bottom: 0;
+	width: 30rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	text-align: center;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow:0 0 4rpx 0 rgba(222,222,222,0.5);
+	&.icon-girl{color: #FF6A6A;}
+	&.icon-boy{color: #4BAFFB;}
+}
+.list {
+	margin-top: 44rpx;
+  line-height: 64rpx;
+}
+.user-status{
+	font-style: italic;
+	padding: 4rpx 6rpx;
+	line-height: 24rpx;
+	background:linear-gradient(228deg,rgba(255,229,196,1) 0%,rgba(255,183,93,1) 100%);
+	box-shadow:0 1px 0 0 rgba(254,250,243,1),-1px 0 1px 0 rgba(255,191,112,1);
+	border-radius:6rpx 6rpx 6rpx 0;
+	&.ispart{
+		background:linear-gradient(228deg,rgba(185, 248, 233, 1) 0%,rgba(111,255,223,0.65) 100%);
+		box-shadow: none;
+	}
+}

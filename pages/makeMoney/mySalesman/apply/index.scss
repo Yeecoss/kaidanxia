@@ -1,0 +1,46 @@
+view{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.h_div20{
+	height: 20rpx;
+	background-color: #F5F5F5;
+}
+// .m-l-60{margin-left: 60rpx;}
+// .m-l-50{margin-left: 50rpx;}
+// .m-l-100{margin-left: 100rpx;}
+.list{
+	padding: 22rpx 30rpx;
+	min-height: 88rpx;
+	position: relative;
+}
+.notes {
+	padding: 20rpx 0;
+}
+// list
+.salesman-item{
+	padding: 20rpx;
+	border-radius: 12rpx;
+}
+.salesman-pic{
+	width: 88rpx;
+	height: 88rpx;
+	border-radius: 50%;
+}
+.list-date{
+	margin-top: 4rpx;
+}
+.btn{
+	width: 112rpx;
+	line-height: 48rpx;
+	font-size: 24rpx;
+	color: #666;
+	border-radius: 24rpx;
+	border: 1rpx solid #DEDEDE;
+}
+.btn2{
+	color: $red;
+	border-color: $red;
+}

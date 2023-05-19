@@ -1,0 +1,84 @@
+view{box-sizing: border-box;}
+image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+// top-wrap
+.top-wrap, .top-con{
+	height: 178rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.top-con{
+	position: fixed;
+	z-index: 1;
+}
+.search{
+	height: 90rpx;
+	padding-top: 14rpx;
+	border-bottom: 1rpx solid #F5F5F5;
+}
+.top-tab{
+	height: 88rpx;
+}
+.top-tab-item{
+	width: 88rpx;
+	text-align: center;
+	line-height: 36rpx;
+	background: #EEE;
+	border-radius: 18rpx;
+	margin-right: 40rpx;
+	&:last-child{margin-right: 0;}
+	&.on{
+		color: $red;
+		background: rgba(232, 46, 46, .1);
+	}
+}
+// list
+.list-item{
+	padding: 20rpx 30rpx;
+}
+.list-item-pic{
+}
+.user_img{
+	position: relative;
+	width: 88rpx;
+	height: 88rpx;
+	border-radius: 50%;
+	background: #D8D8D8;
+	overflow: hidden;
+}
+.list-item-status{
+	position: absolute;
+	transform: translate(-4rpx,-18rpx);
+	width: 96rpx;
+	line-height: 32rpx;
+	color: #fff;
+	background: linear-gradient(90deg, #FC8383 0%, #E82E2E 100%);
+	border-radius: 16rpx;
+}
+.user-name{
+	max-width: 240rpx;
+	height: 30rpx;
+	line-height: 1.1;
+}
+.list-date{
+	line-height: 20rpx;
+	border-left: 1rpx solid #D8D8D8;
+}
+.list-item-data{
+	line-height: 1.1;
+}
+.data-item{
+	width: 400rpx;
+	&:first-child{
+		width: 340rpx;
+	}
+}
+.col-e{
+	width: 1rpx;
+	height: 32rpx;
+	// margin: 0 60rpx;
+	background: #eee;
+}

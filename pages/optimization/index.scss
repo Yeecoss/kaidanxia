@@ -1,0 +1,135 @@
+// tab
+.index-header-c{
+	white-space: nowrap;
+	view{
+		position: relative;
+		height: 60rpx;
+		line-height: 60rpx;
+		box-sizing: border-box;
+		&:nth-child(1){margin-right: 28rpx;}
+	}
+}
+.top-div{
+	font-size: 36rpx;
+	color: #666;
+	view{
+		&::after {
+			position: absolute;
+			bottom: -4rpx;
+			left: 50%;
+			transform: translateX(-50%);
+			content: '';
+			width: 48rpx;
+			height: 4rpx;
+			background-color: #fff;
+		}
+		&.on{
+			font-size: 36rpx;
+			color: #222;
+		}
+		&.on::after{
+			border-bottom: 4rpx solid $red;
+		}
+	}
+}
+// 卖手圈
+.top-saler{
+	font-size: 36rpx;
+	color: #828393;
+	background-color: #fff;
+	view{
+		height: 52rpx;
+		line-height: 52rpx;
+		&::after {
+			position: absolute;
+			bottom: -12rpx;
+			left: 50%;
+			transform: translateX(-50%);
+			content: '';
+			width: 36rpx;
+			height: 36rpx;
+			border-radius: 50%;
+			border: 4rpx solid #fff;
+			background-color: #fff;
+			z-index: -1;
+			box-sizing: border-box;
+		}
+		&.on{
+			font-size: 36rpx;
+			color: $red;
+		}
+		&.on::after{
+			border-color: $red;
+		}
+	}
+}
+// 运动模板
+.top-sportshop{
+	font-size: 28rpx;
+	color: #828393;
+	view{
+		&.on{
+			font-size: 36rpx;
+			color: $theme4Color;
+		}
+	}
+}
+// 小商店模板
+.top-minishop{
+	font-size: 36rpx;
+	color: #828393;
+	view{
+		&::after {
+			position: absolute;
+			bottom: 10rpx;
+			left: 50%;
+			transform: translateX(-50%);
+			content: '';
+			width: 72rpx;
+			height: 10rpx;
+			background: transparent;
+			z-index: -1;
+		}
+		&.on{
+			font-size: 36rpx;
+			color: #2A2A30;
+		}
+		&.on::after{
+			background: linear-gradient(270deg, #FAAB90 0%, #F27257 100%);
+		}
+	}
+}
+// 内容
+.main{padding-bottom: 30rpx;min-height: 100%;}
+// 当前搜索
+.search-key{
+	width: 100%;
+	min-width: 40rpx;
+	line-height: 76rpx;
+	padding: 0 30rpx;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	word-break: break-all;
+	box-sizing: border-box;
+}
+.remind-colse{
+	width: 40rpx;
+	line-height: 40rpx;
+	text-align: center;
+}
+/deep/ .tui-popup-list{box-shadow: 0 0 0 1rpx #DEDEDE;}
+// 搜索框
+.search-wrap,.search{
+	width: 100%;
+	height: 88rpx;
+}
+.search{
+	padding: 12rpx 30rpx 0;
+	position: fixed;
+	z-index: 2;
+	box-sizing: border-box;
+}
+.border-top{
+	border-top: 1rpx solid #F8F8F8;
+}

@@ -1,0 +1,85 @@
+.heardBox{
+	width: 690rpx;
+	height: 158rpx;
+	background: #FFFFFF;
+	border-radius: 16rpx;
+	margin: 10rpx auto 0;
+	padding-top: 42rpx;
+	text-align: center;
+	.allNum{
+		color: #E82E2E;
+		font-size: 48rpx;
+		line-height: 48rpx;
+	}
+	.allNumTip{
+		color: #999999;
+		font-size: 26rpx;
+		line-height: 26rpx;
+		margin-top: 40rpx;
+		.iconfont2{
+			font-size: 26rpx;
+			margin-left: 10rpx;
+		}
+	}
+}
+.listBox{
+	width: 690rpx;
+	margin: 40rpx auto 0;
+	.listTitle{
+		font-size: 28rpx;
+		color: #666666;
+		line-height: 28rpx;
+	}
+	.listItem{
+		margin-top: 20rpx;
+		width: 646rpx;
+		background: #FFFFFF;
+		border-radius: 16rpx;
+		padding: 20rpx;
+		.imgBox{
+			width: 64rpx;
+			height: 64rpx;
+			margin-right: 10rpx;
+			image{
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+			}
+		}
+		.shopName{
+			color: #333333;
+			font-size: 26rpx;
+			margin-left: 10rpx;
+		}
+		.numItemBox{
+			padding-right: 42rpx;
+			.line{
+				width: 1rpx;
+				height: 32rpx;
+				background: #EEEEEE;
+			}
+			.numTitle{
+				color: #999999;
+				font-size: 24rpx;
+				line-height: 24rpx;
+			}
+			.numCount{
+				color: #333333;
+				font-size: 26rpx;
+				line-height: 26rpx;
+				margin-top: 14rpx;
+			}
+			.numTitle1{
+				color: #333333;
+				font-size: 26rpx;
+				line-height: 26rpx;
+			}
+			.numCount1{
+				color: #999999;
+				font-size: 24rpx;
+				line-height: 24rpx;
+				margin-top: 10rpx;
+			}
+		}
+	}
+}

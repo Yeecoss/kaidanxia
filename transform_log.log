@@ -1,0 +1,128 @@
+
+Warning： 找不到package.json文件(不影响转换，无视这条)
+
+miniprogram to uni-app 转换日志
+
+---基本信息---
+时间: 2020-05-18 09:47:36
+语言: Javascript
+转换模式: Hbuilder X
+是否转换wxs文件: false
+
+---小程序基本信息---
+name: miniprogram-1
+version: 
+description: 
+appid: wxd72c182e223d6f51
+projectname: 
+compileType: miniprogram
+author: 
+
+---目录信息---
+sourceFolder: D:\XunRanWork\小程序
+targetFolder: D:\XunRanWork\小程序_uni
+outputFolder: D:\XunRanWork\小程序_uni
+miniprogramRoot: D:\XunRanWork\小程序
+
+---日志信息---
+Convert wxs file ..\小程序_uni\components\wxs\array.wxs success!
+Convert wxs file ..\小程序_uni\components\wxs\memoize.wxs success!
+Convert wxs file ..\小程序_uni\components\wxs\object.wxs success!
+Convert wxs file ..\小程序_uni\components\wxs\bem.wxs success!
+Convert wxs file ..\小程序_uni\components\wxs\utils.wxs success!
+wxParse: ()      file: D:\XunRanWork\小程序\components\diy\richText\richText.js
+wxParse: ()      file: D:\XunRanWork\小程序\pages\article\detail\index.js
+wxParse: ()      file: D:\XunRanWork\小程序\pages\goods\index.js
+wxParse: ()      file: D:\XunRanWork\小程序\pages\sharp\goods\index.js
+wxParse: ()      file: D:\XunRanWork\小程序\pages\bargain\goods\index.js
+wxParse: ()      file: D:\XunRanWork\小程序\pages\sharing\goods\index.js
+[Warning] image漏网之鱼:    src--> "/images/my-{{item.icon}}.png"     file--> pages\user\index.wxml
+[命名替换]:  $emit  -->  emitFun    file: components\mixins\basic.js
+[命名替换]:  _init  -->  initFun    file: components\noticebar\index.js
+[命名替换]:  _scroll  -->  scrollFun    file: components\noticebar\index.js
+[命名替换]:  _scroll  -->  scrollFun    file: components\noticebar\index.js
+[命名替换]:  _checkMode  -->  checkModeFun    file: components\noticebar\index.js
+[命名替换]:  __handleOpenDataResponse  -->  _handleOpenDataResponseFun    file: components\dialog\index.js
+[命名替换]:  __handleOpenDataResponse  -->  _handleOpenDataResponseFun    file: components\dialog\index.js
+[命名替换]:  __handleOpenDataResponse  -->  _handleOpenDataResponseFun    file: components\dialog\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\sharing\order\refund\index.js
+[命名替换]:  _initOrderData  -->  initOrderDataFun    file: pages\order\refund\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\order\refund\index.js
+[命名替换]:  _initCommentData  -->  initCommentDataFun    file: pages\goods\comment\comment.js
+[命名替换]:  _initCommentData  -->  initCommentDataFun    file: pages\sharing\goods\comment\comment.js
+[命名替换]:  _initCountDownData  -->  initCountDownDataFun    file: components\diy\sharpGoods\index.js
+[命名替换]:  _initCountDownData  -->  initCountDownDataFun    file: components\diy\sharpGoods\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\dealer\withdraw\apply\apply.js
+[命名替换]:  _initGoodsChecked  -->  initGoodsCheckedFun    file: pages\flow\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharing\index\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharing\index\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharing\index\index.js
+[命名替换]:  _initList  -->  initListFun    file: pages\sharing\index\index.js
+[命名替换]:  _initData  -->  initDataFun    file: pages\bargain\task\index.js
+[命名替换]:  _initShowBtn  -->  initShowBtnFun    file: pages\bargain\task\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\category\list.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\category\list.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\category\list.js
+[命名替换]:  _initList  -->  initListFun    file: pages\category\list.js
+[命名替换]:  _initCountDownData  -->  initCountDownDataFun    file: pages\sharp\index\index.js
+[命名替换]:  _initCountDownData  -->  initCountDownDataFun    file: pages\sharp\index\index.js
+[命名替换]:  _initData  -->  initDataFun    file: pages\sharp\index\index.js
+[命名替换]:  _initManySpecData  -->  initManySpecDataFun    file: pages\sharp\index\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharp\index\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharp\index\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\sharing\active\index.js
+[命名替换]:  _initGoodsDetailData  -->  initGoodsDetailDataFun    file: pages\sharing\active\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharing\active\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharing\active\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\sharing\active\index.js
+[命名替换]:  _initOrderData  -->  initOrderDataFun    file: pages\order\index.js
+[命名替换]:  _initOrderData  -->  initOrderDataFun    file: pages\sharing\order\index.js
+[命名替换]:  _initGoodsDetailData  -->  initGoodsDetailDataFun    file: pages\goods\index.js
+[命名替换]:  _initManySpecData  -->  initManySpecDataFun    file: pages\goods\index.js
+[命名替换]:  _initCommentData  -->  initCommentDataFun    file: pages\goods\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\goods\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\goods\index.js
+[命名替换]:  _showPoster  -->  showPosterFun    file: pages\goods\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\flow\checkout.js
+[命名替换]:  _onSubmitCallback  -->  onSubmitCallbackFun    file: pages\flow\checkout.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\flow\checkout.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharing\checkout\index.js
+[命名替换]:  _onSubmitCallback  -->  onSubmitCallbackFun    file: pages\sharing\checkout\index.js
+[命名替换]:  _onRequestSubscribeMessage  -->  onRequestSubscribeMessageFun    file: pages\sharing\checkout\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\bargain\index\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\bargain\index\index.js
+[命名替换]:  _initCountDownData  -->  initCountDownDataFun    file: pages\bargain\index\index.js
+[命名替换]:  _getList  -->  getListFun    file: pages\bargain\index\index.js
+[命名替换]:  _getList  -->  getListFun    file: pages\bargain\index\index.js
+[命名替换]:  _setListHeight  -->  setListHeightFun    file: pages\bargain\index\index.js
+[命名替换]:  _setCurrentTab  -->  setCurrentTabFun    file: pages\bargain\index\index.js
+[命名替换]:  _getList  -->  getListFun    file: pages\bargain\index\index.js
+[命名替换]:  _initData  -->  initDataFun    file: pages\sharp\goods\index.js
+[命名替换]:  _initManySpecData  -->  initManySpecDataFun    file: pages\sharp\goods\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharp\goods\index.js
+[命名替换]:  _showPoster  -->  showPosterFun    file: pages\sharp\goods\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharp\goods\index.js
+[命名替换]:  _initData  -->  initDataFun    file: pages\bargain\goods\index.js
+[命名替换]:  _initManySpecData  -->  initManySpecDataFun    file: pages\bargain\goods\index.js
+[命名替换]:  _initCommentData  -->  initCommentDataFun    file: pages\bargain\goods\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\bargain\goods\index.js
+[命名替换]:  _showPoster  -->  showPosterFun    file: pages\bargain\goods\index.js
+[命名替换]:  _initGoodsDetailData  -->  initGoodsDetailDataFun    file: pages\sharing\goods\index.js
+[命名替换]:  _updateSpecGoods  -->  updateSpecGoodsFun    file: pages\sharing\goods\index.js
+[命名替换]:  _onVerify  -->  onVerifyFun    file: pages\sharing\goods\index.js
+[命名替换]:  _showPoster  -->  showPosterFun    file: pages\sharing\goods\index.js
+
+转换完成: 
+耗时：5286ms
+当前转换模式：【Hbuilder X】，生成HbuilderX项目。
+优点：上手快，项目结构较简单；
+缺点：资源路径会因为表达式而无法全部被修复(需手动修复)
+
+注意：
+1.当看到"image漏网之鱼"，意味着您"可能"需要手动调整对应代码(以实际编译运行为准)，当image标签的src属性是含变量或表达式，工具还无法做到100%转换，需要手动修改为相对/static目录的路径
+
+
+日志说明：
+1. image漏网之鱼 --> 为HbuilderX模式时，需要将资源移动到static，并且修复相应文件路径，有可能src为网络文件，有可能为变量或表达式，可能会导致转换后文件找不到，因此提示一下
+修复提示：编译时，如有报错就将对应位置修复即可(虽然目前uni-app有类似的支持，似乎并不完善)
+2. 命名替换 --> 小程序里对于属性名基本没什么限制，如id能做属性名，data下面的变量和函数名还能重名，但这些在uni-app里是不支持的，因此做了相关替换，并记录日志，也许组件在外部调用时，函数名被改而因此报错时，请查看此文档

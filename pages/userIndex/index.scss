@@ -1,0 +1,379 @@
+/* 用户信息 */
+
+.nav .weui-navigation-bar__inner {
+  box-shadow: none;
+}
+  .memberBox{
+    margin: 50rpx auto 0;
+    // height: 100%;
+    // height:120rpx;
+    width: 678rpx;
+    height:104rpx;
+    z-index: 2;
+    position: relative;
+    .memberBgImg{
+      height: 100%;
+      width: 100%;
+    }
+    .memberText{
+      position: absolute;
+      left: 30rpx;
+      top: 34rpx;
+      width: 620rpx;
+      .memberTit{
+        font-size:32rpx;
+        font-weight:600;
+        line-height:32rpx;
+        image{
+          width: 130rpx;
+        }
+      }
+      .buyMember{
+        font-size:24rpx;
+        height:40rpx;
+        line-height:40rpx;
+        border-radius:20rpx;
+        text-align: center;
+        padding: 0 16rpx;
+      }
+    }
+  }
+.user {
+  position: relative;
+  background: #fff;
+  padding-top:20rpx;
+  //背景
+  .user_bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    image{
+      height: 100%;
+      width: 100%;
+    }
+  }
+  // margin-bottom: 8rpx;
+}
+.user-header{
+  color: #333;
+  font-size: 40rpx;
+  position: relative;
+  z-index: 2;
+		
+	.myShop{
+		width: 170rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		background: #FFFFFF;
+		border-radius: 30rpx 0 0 30rpx;
+		color: #FF9872;
+		font-size: 26rpx;
+		padding-left: 20rpx;
+		text{
+			margin-right: 8rpx;
+			font-size: 26rpx;
+		}
+	}
+}
+.user-header .user-header-cont {
+  display: flex;
+  margin: auto 0;
+  align-items: center;
+  padding-left: 38rpx;
+}
+
+.user-header .user-header-cont .user-header-avatar {
+  display: block;
+  margin-right: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 5rpx solid #fff;
+  overflow: hidden;
+}
+
+.user-header .user-header-cont .user-header-right {
+  flex: 1;
+  .nickName{
+    width: 100%;
+  }
+}
+.user-header .user-header-cont .user-header-avatar image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.user-header .user-header-cont .user-header-cont-name {
+  font-size: 32rpx;
+  padding: 20rpx 0;
+}
+
+/* 会员等级 */
+
+.user-header-grade {
+  background: #fff199;
+  margin-top: 12rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  border-radius: 10rpx;
+  padding: 0 14rpx;
+}
+
+/* .user-header-grade .user-grade_icon {
+  margin-top: -5rpx;
+} */
+
+.user-header-grade .user-grade_icon image {
+  display: block;
+  width: 32rpx;
+  height: 30rpx;
+}
+
+.user-header-grade .user-grade_name {
+  margin-left: 8rpx;
+  font-size: 24rpx;
+}
+
+/* 订单导航栏 */
+
+.order-navbar {
+  margin: auto;
+	padding: 72rpx 2.5% 40rpx;
+  font-size: 30rpx;
+	overflow: hidden;
+}
+
+.order-navbar-header {
+  margin: auto;
+  padding-bottom: 10rpx;
+  width: 91%;
+  height: 70rpx;
+  border-bottom: 1rpx solid #eee;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-navbar-footer {
+  width: 100%;
+}
+.order-navbar-footer .order-navbar-item{
+	position: relative;
+  width: 108rpx;
+}
+.order-navbar-footer .order-navbar-item .imgBox{
+  height: 48rpx;
+  overflow: hidden;
+  text-align: center;
+}
+.order-navbar-footer .order-navbar-item .order-navbar__icon {
+  margin: 0 auto;
+  font-size: 48rpx;
+}
+
+.order-navbar-footer .order-navbar-item .order-navbar__name {
+  margin-top: 20rpx;
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  text-align: center;
+  // margin-right: 10rpx;
+}
+
+.order-navbar-footer .order-navbar-item .order-badge, .order-navbar-footer .order-navbar-item .order-badge1 {
+  position: absolute;
+  font-size: 22rpx;
+  background: #E82E2E;
+  text-align: center;
+  line-height: 28rpx;
+  color: #fff;
+  border-radius: 100%;
+  min-height: 30rpx;
+  min-width: 30rpx;
+  padding: 1rpx;
+}
+.order-navbar-footer .order-navbar-item .order-badge {
+  top: -16rpx;
+  right: 52rpx;
+}
+.order-navbar-footer .order-navbar-item .order-badge1 {
+  top: -16rpx;
+  right: 54rpx;
+}
+
+/* 菜单列表 */
+
+.menus-list {
+  padding-bottom: 100rpx;
+  background-color: #fff;
+  padding-top: 94rpx;
+  position: relative;
+  .tipsBox{
+    height: 64rpx;
+    background: rgba(248, 177, 74, .12);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    color: #F8B14A;
+    font-size: 24rpx;
+    padding: 0 34rpx;
+    line-height: 64rpx;
+  }
+  .withdrawal{
+    width: 690rpx;
+    height: 128rpx;
+    border-radius: 64rpx;
+    overflow: hidden;
+    image{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.menus-list .imgBox{
+  width: 56rpx;
+  height: 56rpx;
+	margin: 0 auto;
+  overflow: hidden;
+  text{
+    font-size: 44rpx;
+  }
+}
+.menus:nth-child(4) .imgBox,.menus:nth-child(6) .imgBox,.menus:nth-child(10) .imgBox{
+	width: 50rpx;
+}
+.menus-list .btn-normal image{
+  width: 52rpx;
+  display: block;
+}
+.menus-list .btn-normal{
+  position: relative;
+  .redDot{
+    width: 16rpx;
+    height: 16rpx;
+    border-radius: 50%;
+    background: #E82E2E;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: 30rpx;
+    top: 0rpx;
+  }
+}
+
+/* 我的钱包 */
+
+.my-asset {
+  background: #fff;
+  /* height: 70rpx; */
+  padding: 26rpx 30rpx;
+}
+
+.my-asset .asset-right {
+  width: 210rpx;
+  border-left: 1rpx solid #eee;
+}
+
+.asset-left_item {
+  color: #333333;
+  width:336rpx;
+  height:160rpx;
+  box-shadow:0px 0px 10px 1px rgba(222,222,222,0.5);
+  border-radius:16rpx;
+  margin-right:20rpx;
+}
+.asset-left_item .btn-normal{
+  margin: 38rpx 20rpx;
+}
+
+.asset-left_item .item-value text {
+  font-size: 32rpx;
+  color: red;
+}
+
+.asset-left_item .item-name {
+  margin-bottom: 14rpx;
+}
+
+.asset-left_item .item-name text {
+  font-size: 28rpx;
+}
+.asset-left_item .item_icon image{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.menus-title{
+	width: 100%;
+	padding-top: 40rpx;
+	padding-bottom: 60rpx;
+}
+.menus{
+	width: 25%;
+	margin-bottom: 80rpx;
+	text-align: center;
+	overflow: hidden;
+}
+.main{
+	// transition: all 0.2s;
+	// padding-top: 16rpx;
+	// position: absolute;
+	// transform: translateY(-280rpx);
+}
+// .hudu{
+// 	height: 60rpx;
+// 	image{width: 100%;display: block;}
+// 	overflow: hidden;
+// }
+// .member_power{
+// 	position: absolute;
+// 	left: 0;
+// 	top: 140rpx;
+// 	width: 100%;
+// 	padding: 0 74rpx;
+// 	box-sizing: border-box;
+// 	view{
+// 		margin-right: 86rpx;
+// 		margin-bottom: 20rpx;
+// 		&:nth-child(3n){margin-right: 0;}
+// 	}
+// }
+.f-w-300{font-weight: 300;}
+// 群聊
+/* #ifdef MP-WEIXIN */
+.btn-normal{
+	position: relative;
+}
+.kefu_cell{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+/* #endif */
+// 开店卡片
+.memberBox2{
+	height: 88rpx;
+	.memberText{
+		top: 24rpx;
+	}
+}
+.memberTitle{
+	font-size: 30rpx;
+	font-weight: 600;
+	color: #E6B994;
+	background: linear-gradient(270deg, #F4DDC6 0%, #E6B994 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.buyMember2{
+	color: #2A2A30;
+	background: linear-gradient(270deg, #F4DDC6 0%, #E6B994 100%);
+}

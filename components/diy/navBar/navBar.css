@@ -1,0 +1,45 @@
+/* common.wxss */
+
+/* @import "../../../utils/common.css"; */
+
+/* 导航组 */
+
+.diy-navBar .data-list::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.diy-navBar .item-nav {
+  float: left;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.diy-navBar .item-nav .item-image {
+  width: 88rpx;
+  font-size: 0;
+  height: 88rpx;
+  margin: 0 auto 8rpx;
+}
+
+.diy-navBar .item-nav .item-image .image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* 分列布局 */
+
+.diy-navBar .avg-sm-3 > .item-nav {
+  width: 33.33333333%;
+}
+
+.diy-navBar .avg-sm-4 > .item-nav {
+  width: 25%;
+}
+
+.diy-navBar .avg-sm-5 > .item-nav {
+  width: 20%;
+}

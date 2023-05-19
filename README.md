@@ -1,4 +1,4 @@
-# 项目说明介绍  [https://kaidanxia.com/#/](https://kaidanxia.com/#/)
+# 项目说明介绍  [https://eshop.yi-types.com/](https://eshop.yi-types.com/)
 
 ## 复制商品
 
@@ -42,4 +42,4 @@ width="250" title="店铺-展开全部功能">
 </center>
 
 项目部署帮助及商业使用咨询
-![图片](./开单虾功能模块截图/微信图片_20230519144019.png)
+<img src="https://gitee.com/yi-lian-shu-ju/kaidanxia/raw/master/%E5%BC%80%E5%8D%95%E8%99%BE%E5%8A%9F%E8%83%BD%E6%A8%A1%E5%9D%97%E6%88%AA%E5%9B%BE/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230519144019.png">
